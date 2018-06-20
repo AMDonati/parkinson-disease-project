@@ -15,8 +15,8 @@ _All these datasets are medical data related to Parkinson Disease, with a set of
 **Features:**
 ![alt text](https://github.com/AMDonati/05_DSR_Portfolio_Project/blob/master/Parkinsons-dataset.png)
 
-**Short Description:**  
-Biomedical voice measurements of 31 voice recordings, including 23 with PD.
+__**Short Description:**__
+**Biomedical voice measurements of 31 voice recordings, including 23 with PD.**
 
 __Attribute Information__:  
 Matrix column entries (attributes):
@@ -46,8 +46,8 @@ Classification of PD vs Healthy
 **Features:**  
 ![alt text](https://github.com/AMDonati/05_DSR_Portfolio_Project/blob/master/Parkinsons-Telemonitoring.png)
 
-**Short Description:**  
-Biomedical voice measurements of 42 people with PD at home through Telemonitoring.
+__**Short Description:**__
+**Biomedical voice measurements of 42 people with PD at home through Telemonitoring.**
 
 __ATTRIBUTE INFORMATION__:  
 * subject# - Integer that uniquely identifies each subject
@@ -79,8 +79,8 @@ Prediction of the Parkinson disease stage
 **Features:**
 ![alt text](https://github.com/AMDonati/05_DSR_Portfolio_Project/blob/master/Parkinsons-speech-w-multiple-sound-recordings.png)
 
-**Short Description:**  
-Recording of 26 different sounds recording for 40 subjects (20 PD, 20H):
+__**Short Description:**__ 
+**Recording of 26 different sounds recording for 40 subjects (20 PD, 20H):**
 * sustained vowels  
 * sustained words  
 * sustained numbers
@@ -122,7 +122,7 @@ colum 2-27: features
 ##### 4. Dataset 4
 [Parkinson Disease Spiral Drawings Using Digitized Graphics Tablet](https://archive.ics.uci.edu/ml/datasets/Parkinson+Disease+Spiral+Drawings+Using+Digitized+Graphics+Tablet#)  
 
-**Short Description:**  
+__**Short Description:**__ 
 The PD and control handwriting database consists of 62 PWP (People with parkinson) and 15 healthy individuals.    From all subjects, three types of handwriting recordings (Static Spiral Test (SST), Dynamic Spiral Test (DST) and Stability Test on Certain Point (STCP)) are taken.  
 Also the drawings of spirals belongs to the PWP are included in the dataset as image. Therefore, this dataset can also be used for regression.
 
@@ -136,5 +136,6 @@ Also the drawings of spirals belongs to the PWP are included in the dataset as i
 
 **Dataset Type:**  
 .txt
+.jpg
 
 ## 2. PROBLEM AND SOLUTION
