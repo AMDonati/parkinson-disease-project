@@ -9,7 +9,7 @@
 
 _All these datasets are medical data related to Parkinson Disease, with a set of healthy patients (H) and patients with the Parkinson Disease(PD)_
 
-##### 1. Dataset 1
+#### __1. Dataset 1__
 [Parkinson dataset](https://archive.ics.uci.edu/ml/datasets/parkinsons)  
 
 **Features:**
@@ -40,7 +40,7 @@ Classification of PD vs Healthy
 .txt
 
 
-##### 2. Dataset 2
+#### __2. Dataset 2__
 [Parkinson Telemonitoring dataset](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring)  
 
 **Features:**  
@@ -73,7 +73,7 @@ Prediction of the Parkinson disease stage
 .txt
 
 
-##### 3. Dataset 3
+#### __3. Dataset 3__
 [Parkinson Speech Dataset with Multiple Types of Sound Recordings dataset](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)  
 
 **Features:**
@@ -119,7 +119,7 @@ colum 2-27: features
 .txt
 
 
-##### 4. Dataset 4
+#### __4. Dataset 4__
 [Parkinson Disease Spiral Drawings Using Digitized Graphics Tablet](https://archive.ics.uci.edu/ml/datasets/Parkinson+Disease+Spiral+Drawings+Using+Digitized+Graphics+Tablet#)  
 
 __**Short Description:**__ 
