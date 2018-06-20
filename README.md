@@ -139,3 +139,13 @@ Also the drawings of spirals belongs to the PWP are included in the dataset as i
 .jpg
 
 ## 2. PROBLEM AND SOLUTION
+
+### **GOAL:**
+#### 1. find the best ML algo for each classification & regression problems of each dataset 
+#### 2. Compare the different PD experiments and assess which is the best experiment (in terms of accuracy...) for PD diagnosis (classification, prediction of diseases state advancement)
+
+### **DS process / algo used**
+##### Feature engineering
+##### Cross-validation / k-fold validation
+##### Model evaluation
+
