@@ -1,7 +1,5 @@
 # 05_DSR_Portfolio_Project : Parkinson Disease Diagnosis
 
-# Elevator Pitch
-
 ## 1.DATA
 
 ### 1. sources
