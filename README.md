@@ -13,7 +13,7 @@
 * Olfaction
 * DatScan Imaging, MRI
 
-## 1. Building a recommender system suggesting the best treatment(s) for each PD subject
+## Idea #1. Building a recommender system suggesting the best treatment(s) for each PD subject
 ### AI & Healthcare topic: precision medicine
 #### use cases:
 * **For Doctors**: decision support tool for selecting the best treament for each of their patients
@@ -63,7 +63,7 @@ https://trello-attachments.s3.amazonaws.com/5b3e6dbb7d721073e66fcdd6/5b3e8b2a36c
 -Doing correctly the feature engineering to select the right variables to use as an input of the recommender system
 > Requires domaine expertise
 
-## 2. Building a prediction model for predicting the evolution of the disease for each subject 
+## Idea #2. Building a prediction model for predicting the evolution of the disease for each subject 
 ### AI & Healthcare topic: diagnosis prediction/accuracy 
 #### use cases: 
 * FOR DOCTORS: Early detection of PD subjects, anticipation of their patients' disease evolution.
@@ -88,7 +88,7 @@ https://trello-attachments.s3.amazonaws.com/5b3e6dbb7d721073e66fcdd6/5b3e8b2a36c
 * Definition/Classification of the different stages of the disease (as prediction outputs) can be quite complicated
 
 
-## 3. Specific focus on brain scans analysis of PD subjects 
+## Idea #3. Specific focus on brain scans analysis of PD subjects 
 ### AI & Healthcare topic: biomedical vision / CAD for neuroimaging  
 #### use cases: 
 * DOCTORS: Decision Support tool to analyze brain scans 
