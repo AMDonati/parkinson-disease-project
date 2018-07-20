@@ -6,6 +6,8 @@
 ### 1. **MAIN DATASET**: 
 http://www.ppmi-info.org/access-data-specimens/download-data/
 
+![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/PPMI%20data%20summary.png)
+
 #### study pop:
 * 400 de novo PD subjects - newly diagnosed & unmedicamented
 * 200 age and gender matched healthy controls
