@@ -8,19 +8,6 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 
 ![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/PPMI%20data%20summary.png)
 
-#### study pop:
-* 400 de novo PD subjects - newly diagnosed & unmedicamented
-* 200 age and gender matched healthy controls
-* ~70-80 SWEDD subjects
-> Subjects followed for a min of 3 years, and a max of 5 years.
-
-#### Clinical data collection: 
-* Motor Assessments
-* Neuropsychiatric/neurobehavioral testing
-* Olfaction
-* DatScan Imaging, MRI
-
-_TO COMPLETE_
 
 ### 2. Use cases: 
 * **FOR DOCTORS**: Early detection of PD subjects, Improving disease accuracy, anticipation of their patients' disease evolution 
@@ -56,14 +43,29 @@ For each patient subject: a vector of tuples (PD state (categorical variable), p
 5. **Interactive DataViz Tools to present the results**
 > Check all the tools available and select the best one. 
 
+6. **[if enough time]: do some CV on the MRI scans**
+
 #### 4. Potential Challenges raised by the subject
 * Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
 * Definition/Classification of the different stages of the disease (as prediction outputs) can be quite complicated: 
 [https://www.researchgate.net/post/What\_is\_the\_best\_way\_to\_track\_disease\_progression\_in\_Parkinsons\_disease]_
 
 #### List of contacts that could help me: 
-_TO COMPLETE_
-
+* **DOCTORS**: 
+ * https://www.linkedin.com/in/sylvain-lehmann-3156b01/
+ * Armand Perret-Liaudet, Neurobiologie, CHU Lyon
+ * Nitish Nag 
+ 
+* **Ex-DSR alumni**: 
+ * Tiago Oliveira
+ * Macarena Beigier
+ 
+* **Data Scientists**: 
+ * Tarry Singh: tarry.singh@gmail.com (C-level executive practising data science for Healthcare)
+ * DS friends
+ 
+* **From PyData**: 
+David Higgins: https://www.linkedin.com/in/daveh19/
 
 #### 5. Additonal datasets that could be used (if enough time):
 * **2 others clinical studies for PD subjects:** 
@@ -82,12 +84,13 @@ _TO COMPLETE_
   * https://physionet.org/physiobank/database/gaitpdb/
   
   #### 6. Reference Documents
+  _TO COMPLETE_
   
  * Parkinson Disease Diagnosis Prediction: 
  
  * Other PD articles:
  
- * Deep Learning and Bayesian Models
+ * Deep Learning and Bayesian Models: 
  
   
 
