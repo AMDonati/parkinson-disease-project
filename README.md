@@ -2,6 +2,13 @@
 ## Subject: A Probabilistic Model to predict the future states of the disease progress of Parkinson among a population of patients
 ## AI & Healthcare topic: diagnosis prediction/accuracy
 
+### 0. Project context
+* **number of hours to work on it**: ~350-400h 
+* **Project output**: 
+ * Github repo with reproducible code
+ * Oral Presentation (~20min) in front of panel of companies and data scientists in Berlin 
+ * Slides Deck
+ * _Optional_: Video about the Project Process, Medium Article, Scientific paper (if relevant)
 
 ### 1. **MAIN DATASET**: 
 http://www.ppmi-info.org/access-data-specimens/download-data/
@@ -15,7 +22,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
   * For people with risk of getting PD: early detection and monitoring 
   * For early-stage/late-stage PD people: monitoring better their disease by knowing the expected evolution
   
-#### 3. Data Science Techniques to be used: 
+### 3. Data Science Techniques to be used: 
 1. **Data Processing/Cleaning**: Merge/Join of Tables (eventually using PyTables), filling missing values
 
 2.**Feature Engineering:**
@@ -24,7 +31,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
   * Classic Feature Engineering Techniques 
   
 3. **ML/DL models to try:** 
- * Baseline: Naive-Bayes Classifier, Logistic Regression? 
+ * Baseline: Naive-Bayes Classifier, 
  
  
  * "Explainable" models: gradient-boosted trees, Random Forest
@@ -45,7 +52,10 @@ For each patient subject: a vector of tuples (PD state (categorical variable), p
 
 6. **[if enough time]: do some CV on the MRI scans**
 
-#### 4. Potential Challenges raised by the subject
+### 4. DS tools to be used (Python Libraries, API...): 
+_TO COMPLETE_
+
+### 5. Potential Challenges raised by the subject
 * Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
 * Definition/Classification of the different stages of the disease (as prediction outputs) can be quite complicated: 
 [https://www.researchgate.net/post/What\_is\_the\_best\_way\_to\_track\_disease\_progression\_in\_Parkinsons\_disease]_
