@@ -55,6 +55,13 @@ For each patient subject: a vector of tuples (PD state (categorical variable), p
 ### 4. DS tools to be used (Python Libraries, API...): 
 _TO COMPLETE_
 
+| **DS Process**           | Tool/Python lib         | Comments       |
+| ----------------         |:-------------:          | -----:         |
+| 0. Design thinking       | Trello .                |                |
+| 1. Data Processing       | PyTables?               |                |
+| 2. EDA                   | Seaborn                 |                |
+| 3. Feature Engineering   |                         |use doctors help|
+
 ### 5. Potential Challenges raised by the subject
 * Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
 * Definition/Classification of the different stages of the disease (as prediction outputs) can be quite complicated: 
