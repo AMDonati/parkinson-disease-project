@@ -67,6 +67,8 @@ _TO COMPLETE_
 * Definition/Classification of the different stages of the disease (as prediction outputs) can be quite complicated: 
 [https://www.researchgate.net/post/What\_is\_the\_best\_way\_to\_track\_disease\_progression\_in\_Parkinsons\_disease]_
 
+* UPDRS: http://www.etas.ee/wp-content/uploads/2013/10/updrs.pdf
+
 #### List of contacts that could help me: 
 * **DOCTORS**: 
  * https://www.linkedin.com/in/sylvain-lehmann-3156b01/
