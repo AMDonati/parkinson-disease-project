@@ -117,6 +117,7 @@ _TO COMPLETE_
  
  * **DS friends**
  * Irwan, Google Brain Researcher - https://www.linkedin.com/in/irwanb/
+ > He would like me to try to use his optimiser in my NN (better perfo than RMSProp & Adam): https://arxiv.org/pdf/1709.07417.pdf
  * Thomas, Research Scientist @ Amazon - https://www.linkedin.com/in/thomasdelteil/
  * Antoine, Freelance Data Scientist - https://www.linkedin.com/in/antoinemeicler/
  
