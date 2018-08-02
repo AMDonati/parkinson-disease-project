@@ -75,14 +75,14 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
   
   > NB: maybe the problem of allocating treatments to disease states over time could be solved by reinforcement learning as well...
   
-6. **Outputs of the model**
+6. **Outputs of the model** . 
 For each patient: 
-* a vector of disease states for different timestamps (multiple labels for each timestamp corresponding to UPDRS scale)
-link to UPDRS scale: UPDRS: http://www.etas.ee/wp-content/uploads/2013/10/updrs.pdf
+* a vector of disease states for different timestamps (multiple labels for each timestamp corresponding to UPDRS scale) . 
+> link to UPDRS scale: UPDRS: http://www.etas.ee/wp-content/uploads/2013/10/updrs.pdf
 * The associated treatment strategy related to the disease state (multiple labels as well)
 * The estimated time of death 
 
-7. **Data Visualisation to present the results**
+7. **Data Visualisation to present the results** . 
 Plots comparating the performance of the different models for different metrics
 
 ### 4. DS tools to be used (Python Libraries...): 
