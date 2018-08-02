@@ -22,7 +22,7 @@ Starting from a dataset of Electronic Health Records of patients with 4 differen
  (the idea is to compare the performance of the models with and without MRI data, as performing MRI is expensive for hospitals and also not easy to process as data).
 * Predict best treatment strategy associated to each patient and each future disease state
 * If enough time: predicting patients' time of death (see recent article about Google having done such predictions)
-* If enough time: ANALYZE TEMPORAL PATTERNS OF BIOMARKERS USING LONGITUDINAL STABILITY SELECTION (as done on AD in 
+* If enough time: ANALYZE TEMPORAL PATTERNS OF BIOMARKERS USING LONGITUDINAL STABILITY SELECTION (as done on AD in Fused Sparse Group Lasso Paper)
 
 _NB: SWEDD= Scans without evidence of dopamine deficit: patients who look like they have PD in terms of symptom but subsequent functional imaging assessment does not confirm this._
 source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
@@ -32,7 +32,8 @@ source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
 http://www.ppmi-info.org/access-data-specimens/download-data/
 
 ![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/PPMI%20data%20summary.png)
-additionnal dataset info: 
+data dictionnary annotated here: https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpxO58/edit#gid=782043355 (work in progress)
+additionnal dataset info: https://www.ppmi-info.org/study-design/research-documents-and-sops/
 
 
 ### 2. Use cases: 
@@ -116,11 +117,11 @@ _TO COMPLETE_
 David Higgins: https://www.linkedin.com/in/daveh19/ - meeting with him 2nd week of August
 
  #### 7. Reference Documents
- * see list here: 
- * See papers summary here: 
+ * see list here: https://github.com/AMDonati/parkinson-disease-project/wiki/reference-documents
+ * See papers summary here: https://docs.google.com/spreadsheets/d/1TEL4umtQPdPPhzf092iMQgvmi9pID5UMrCdndo6ZJsE/edit#gid=0
   
  
- #### 8. Additonal datasets that could be used (if enough time):
+ #### 8. Additonal datasets that could be used: 
 * **2 others clinical studies for PD subjects:** 
   * https://www.coriell.org/Search?q=%22PARKINSON%20DISEASE%22&grid=1
   * https://www.biosend.org/pd_specimens.html
