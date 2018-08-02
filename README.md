@@ -32,8 +32,8 @@ source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
 http://www.ppmi-info.org/access-data-specimens/download-data/
 
 ![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/PPMI%20data%20summary.png)
-data dictionnary annotated here: https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpxO58/edit#gid=782043355 (work in progress)
-additionnal dataset info: https://www.ppmi-info.org/study-design/research-documents-and-sops/
+* data dictionnary annotated here: https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpxO58/edit#gid=782043355 (work in progress)
+* additionnal dataset info: https://www.ppmi-info.org/study-design/research-documents-and-sops/
 
 
 ### 2. Use cases: 
@@ -102,15 +102,15 @@ _TO COMPLETE_
 #### 6. List of contacts that could help me (other than mentor(s))
 * **DOCTORS with Parkinson Disease expertise**: 
  * Sylvain Lehmann, CHU Montpellier: https://www.linkedin.com/in/sylvain-lehmann-3156b01/ - _first call done_
- * Armand Perret-Liaudet, Neurobiologie, CHU Lyon: https://www.linkedin.com/in/armand-perret-liaudet-711a5820/ - _to recontact
+ * Armand Perret-Liaudet, Neurobiologie, CHU Lyon: https://www.linkedin.com/in/armand-perret-liaudet-711a5820/ - _to recontact_
  
 * **Ex-DSR alumni**: 
- * Tiago Oliveira - ok, did a skype with him
+ * Tiago Oliveira - _ok, did a skype with him_
  
 * **Data Scientists**: 
  * Tarry Singh: tarry.singh@gmail.com (C-level executive practising data science for Healthcare. Has created a repo with NN for Healthcare applications (forked))
- * Leandro Agudelo - PostDoc at MIT CS and AI lab: https://www.linkedin.com/in/leandroagudelo/ - _skype w/ him on August 5th
- * Ignacio - Data Scientist working on medicine problems in an hospital: https://www.linkedin.com/in/imsoriano/ - _call to be scheduled
+ * Leandro Agudelo - PostDoc at MIT CS and AI lab: https://www.linkedin.com/in/leandroagudelo/ - _skype w/ him on August 5th_
+ * Ignacio - Data Scientist working on medicine problems in an hospital: https://www.linkedin.com/in/imsoriano/ - _call to be scheduled_
  * DS friends
  
 * **From PyData**: 
