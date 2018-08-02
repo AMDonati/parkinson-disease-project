@@ -114,7 +114,11 @@ _TO COMPLETE_
  * Tarry Singh: tarry.singh@gmail.com (C-level executive practising data science for Healthcare. Has created a repo with NN for Healthcare applications (forked))
  * Leandro Agudelo - PostDoc at MIT CS and AI lab: https://www.linkedin.com/in/leandroagudelo/ - _skype w/ him on August 5th_
  * Ignacio - Data Scientist working on medicine problems in an hospital: https://www.linkedin.com/in/imsoriano/ - _call to be scheduled_
- * DS friends
+ 
+ * **DS friends**
+ * Irwan, Google Brain Researcher - https://www.linkedin.com/in/irwanb/
+ * Thomas, Research Scientist @ Amazon - https://www.linkedin.com/in/thomasdelteil/
+ * Antoine, Freelance Data Scientist - https://www.linkedin.com/in/antoinemeicler/
  
 * **From PyData**:  
 David Higgins: https://www.linkedin.com/in/daveh19/ - meeting with him 2nd week of August
