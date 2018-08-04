@@ -102,27 +102,8 @@ _TO COMPLETE_
 * Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
 
 
-#### 9. List of contacts that could help me (other than mentor(s))
-* **DOCTORS with Parkinson Disease expertise**: 
- * Sylvain Lehmann, CHU Montpellier: https://www.linkedin.com/in/sylvain-lehmann-3156b01/ - _first call done_
- * Armand Perret-Liaudet, Neurobiologie, CHU Lyon: https://www.linkedin.com/in/armand-perret-liaudet-711a5820/ - _to recontact_
- 
-* **Ex-DSR alumni**: 
- * Tiago Oliveira - _ok, did a skype with him_
- 
-* **Data Scientists**: 
- * Tarry Singh: tarry.singh@gmail.com (C-level executive practising data science for Healthcare. Has created a repo with NN for Healthcare applications (forked))
- * Leandro Agudelo - PostDoc at MIT CS and AI lab: https://www.linkedin.com/in/leandroagudelo/ - _skype w/ him on August 5th_
- * Ignacio - Data Scientist working on medicine problems in an hospital: https://www.linkedin.com/in/imsoriano/ - _call to be scheduled_
- 
- * **DS friends**
- * Irwan, Google Brain Researcher - https://www.linkedin.com/in/irwanb/
- > He would like me to try to use his optimiser in my NN (better perfo than RMSProp & Adam): https://arxiv.org/pdf/1709.07417.pdf
- * Thomas, Research Scientist @ Amazon - https://www.linkedin.com/in/thomasdelteil/
- * Antoine, Freelance Data Scientist - https://www.linkedin.com/in/antoinemeicler/
- 
-* **From PyData**:  
-David Higgins: https://www.linkedin.com/in/daveh19/ - meeting with him 2nd week of August
+### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
+
 
  #### 10. Reference Documents
  * see list here: https://github.com/AMDonati/parkinson-disease-project/wiki/reference-documents
