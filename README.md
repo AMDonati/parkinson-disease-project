@@ -55,7 +55,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 * Look @ numbers of subjects having DatScan (MRI) data
 * Look @ Study Enrollment data
 
-3.**Feature Engineering:**
+3.**Feature Engineering:** (if classic ML is used)
   * Manual Feature Engineering with the help of doctors 
   * Statistical techniques to find correlation between features
   * Classic Feature Engineering Techniques for ML 
@@ -103,7 +103,7 @@ _TO COMPLETE_
 
 
 ### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
-
+see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-contacts-&-discussions-summary
 
  #### 10. Reference Documents
  * see list here: https://github.com/AMDonati/parkinson-disease-project/wiki/reference-documents
