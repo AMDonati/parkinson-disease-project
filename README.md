@@ -31,7 +31,8 @@ source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
 ### 2. **MAIN DATASET**: 
 http://www.ppmi-info.org/access-data-specimens/download-data/
 
-![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/PPMI%20data%20summary.png)
+![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/assets%20/PPMI-intro-info.png)
+![Data pop](https://github.com/AMDonati/parkinson-disease-project/blob/master/assets%20/PPMI-pop-info.png)
 * data dictionnary annotated here: https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpxO58/edit#gid=782043355 (work in progress)
 * additionnal dataset info: https://www.ppmi-info.org/study-design/research-documents-and-sops/
 
