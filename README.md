@@ -78,12 +78,17 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 > Issue of large numbers of features for these models though...
 
  * DL Models to be modified to include incertainty with bayesian models
-  * Hidden Markov Models
-  * RNN
-  * LSTM
-  ...
+    * Hidden Markov Models
+    * RNN
+    * LSTM
+    ...
   
-  > NB: maybe the problem of allocating treatments to disease states over time could be solved by reinforcement learning as well...
+  > NB: maybe the problem of allocating treatments to disease states over time could be solved by reinforcement learning as well... See these links:
+  * [Google scholar search for RL for adaptative treatments strategies] (https://scholar.google.com/scholar?oi=gsb95&q=reinforcement%20learning%20for%20medical%20treatments%20decisions&lookup=0&hl=en)
+  * [An experimental design for the development of adaptive treatment strategies] (https://deepblue.lib.umich.edu/bitstream/handle/2027.42/39201/2022_ftp.pdf?sequence=1&isAllowed=y)
+  * [Informing sequential clinical decision-making through reinforcement learning: an empirical study] (https://link.springer.com/content/pdf/10.1007/s10994-010-5229-0.pdf)
+  * [Customizing Treatment to the Patient: Adaptive Treatment Strategies] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1924645/)
+  
   
 6. **Outputs of the model** . 
 For each patient: 
