@@ -14,15 +14,16 @@
 The main goal of this project is predicting Parkinson Disease (PD) Progression over time for a set of patients from a clinical study.
 
 More precisely, the project objectives are:
-Starting from a dataset of Electronic Health Records of patients with 4 different clinical diagnosis (PD diagnosed patients taking PD medications and with PD-related EHR, 400 de novo PD subjects - newly diagnosed and un medicated, SWEDD and healthy control subjects),I will:
-* Classify clinical diagnosis for each patient
-* Predict Parkinson Disease Progression over time using:  
- * 2a. First, only biological biomarkers . 
- * 2b. Add in a second time MRI data (raw brain scans from the PPMI dataset) . 
+Starting from a dataset of Electronic Health Records of patients with 4 different clinical diagnosis (PD diagnosed patients, 400 de novo PD subjects - newly diagnosed and unmedicated, SWEDD and healthy control subjects),I will:
+* **Classify clinical diagnosis for each patient**
+* **Predict Parkinson Disease Progression over time** using:  
+   * 2a. First, only biological biomarkers . 
+   * 2b. Add in a second time MRI data (raw brain scans from the PPMI dataset) . 
  (the idea is to compare the performance of the models with and without MRI data, as performing MRI is expensive for hospitals and also not easy to process as data).
-* Predict best treatment strategy associated to each patient and each future disease state
-* If enough time: predicting patients' time of death (see recent article about Google having done such predictions)
-* If enough time: ANALYZE TEMPORAL PATTERNS OF BIOMARKERS USING LONGITUDINAL STABILITY SELECTION (as done on AD in Fused Sparse Group Lasso Paper)
+* **Predict best treatment strategy associated to each patient and each future disease state**
+* If enough time: **_predicting patients' time of death_** (see recent article about Google having done such predictions)
+* If enough time: **_ANALYZE TEMPORAL PATTERNS OF BIOMARKERS USING LONGITUDINAL STABILITY SELECTION_**
+(as done on AD in Fused Sparse Group Lasso Paper)
 
 _NB: SWEDD= Scans without evidence of dopamine deficit: patients who look like they have PD in terms of symptom but subsequent functional imaging assessment does not confirm this._
 source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
@@ -41,11 +42,18 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 
 
 ### 4. Use cases: 
-* **FOR DOCTORS**: Early detection of PD subjects, Improving disease accuracy, anticipation of their patients' disease evolution
+* **FOR DOCTORS**: 
+   * Early detection of PD subjects
+   * Improving disease accuracy, 
+   * Anticipation of their patients' disease evolution
+   * support to decision for choosing treatments for patients
 * **FOR PD PATIENTS**: 
   * For people with risk of getting PD: early detection and monitoring 
   * For early-stage/late-stage PD people: monitoring better their disease by knowing the expected evolution
   * Finding the best treatment that will improve the quality of life of PD people
+* **FOR HOSPITALS**: 
+ * cost reductions by improved patient management & treatment optimization
+ * operations improvement by predicting patients future visits, med supplies, etc...
   
 ### 5.DS Process for the project 
 1. **Data Processing/Cleaning**: Merge/Join of Tables (eventually using PyTables)
@@ -89,18 +97,25 @@ Plots comparating the performance of the different models for different metrics
 ### 4. DS tools to be used (Python Libraries...): 
 _TO COMPLETE_
 
-| **DS Process**           | Tool/Python lib                | Comments       |
-| ----------------         |:-------------:                 | -----:         |
-| 0. Project Management    | Trello, slack                  |                |
-| 1. Data Processing       | PyTables? or only pandas       |                |
-| 2. EDA                   | Seaborn                        |                |
-| 3. Feature Engineering   | sci-kit learn                  |use doctors help|
-| 4a. Classic ML           | sci-kit learn                  |                |
-| 4b. DL                   | keras with TensorFlow BE       |                |
-| 5. Dataviz               | TBD, probably Seaborn          |                |
+| **DS Process**           | Tool/Python lib                                                  | Comments       |
+| ----------------         |:-------------:                                                   | -----:         |
+| 0. Project Management    | Trello, slack, Github                                            |                |
+| 1. Data Processing       | PyTables? or only pandas                                         |                |
+| 2. EDA                   | Seaborn, Scipy, statsmodels.tsa                                  |                |
+| 3. Feature Engineering   | sci-kit learn                                                    |use doctors help|
+| 4a. Classic ML           | sci-kit learn                                                    |                |
+| 4b. DL                   | keras with TensorFlow BE, Tensorboard, Google Open Cloud/AWS     |                |
+| 5. Dataviz               | TBD, probably Seaborn                                            |                |
+
+* http://www.statsmodels.org/stable/tsa.html
+* For DL: 
+  * [NN Playground] (https://playground.tensorflow.org/#activation=tanh&batchSize=30&dataset=spiral&regDataset=reg-plane&learningRate=0.3&regularizationRate=0&noise=0&networkShape=4,2&seed=0.51575&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+  * [Tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard)
+  * GPUs: Google Open Cloud (Free), AWS
 
 ### 8. Potential Challenges araised by the subject
-* Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
+* For classic ML techniques: Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
+* 
 
 
 ### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
