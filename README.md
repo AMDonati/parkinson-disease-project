@@ -105,12 +105,12 @@ _TO COMPLETE_
 ### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
 see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-contacts-&-discussions-summary
 
- #### 10. Reference Documents
+ ### 10. Reference Documents
  * see list here: https://github.com/AMDonati/parkinson-disease-project/wiki/reference-documents
  * See papers summary here: https://docs.google.com/spreadsheets/d/1TEL4umtQPdPPhzf092iMQgvmi9pID5UMrCdndo6ZJsE/edit#gid=0
   
  
- #### 11. Additonal datasets that could be used: 
+ ### 11. Additonal datasets that could be used: 
 * **2 others clinical studies for PD subjects:** 
   * https://www.coriell.org/Search?q=%22PARKINSON%20DISEASE%22&grid=1
   * https://www.biosend.org/pd_specimens.html
