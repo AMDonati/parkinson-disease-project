@@ -149,8 +149,10 @@ see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-cont
   * https://physionet.org/physiobank/database/gaitpdb/
   
 
+ ---------------
  
-  
+ ### Parkinson News to check: 
+ https://parkinsonsnewstoday.com/2018/07/31/ema-endorses-use-of-imaging-radioactive-tracer-to-improve-parkinsons-clinical-trial-recruitment/
 
 
 
