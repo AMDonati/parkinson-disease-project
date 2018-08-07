@@ -31,11 +31,16 @@ source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
 
 ### 2. **MAIN DATASET**: 
 http://www.ppmi-info.org/access-data-specimens/download-data/
-
+* Data Summary
 ![Data Summary](https://github.com/AMDonati/parkinson-disease-project/blob/master/assets%20/PPMI-intro-info.png)
+* Data Pop
 ![Data pop](https://github.com/AMDonati/parkinson-disease-project/blob/master/assets%20/PPMI-pop-info.png)
+* Patients Hospital visits timeline (timeseries period): 
 ![Patients hospital visits timeline (timeseries period](https://github.com/AMDonati/parkinson-disease-project/blob/master/assets%20/PPMI-visits-timeline.png)
+* Schedule of activities for the clinical studies here: (http://www.ppmi-info.org/wp-content/uploads/2018/02/PPMI-AM-13-Protocol_SCHEDULE-OF-ACTIVITIES-1.pdf)
+
 * data dictionnary annotated here: https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpxO58/edit#gid=782043355 (work in progress)
+
 * Complete dataset can be downloaded here: https://github.com/AMDonati/parkinson-disease-project/blob/master/data/PPMI-final-dataset-382018.zip
 * additionnal dataset info: https://www.ppmi-info.org/study-design/research-documents-and-sops/
 
