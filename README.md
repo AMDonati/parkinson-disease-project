@@ -80,8 +80,9 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
    https://bl.ocks.org/Fil/b07d09162377827f1b3e266c43de6d2a
    * isomap: 
    
- http://scikit-learn.org/stable/modules/manifold.html
- https://github.com/cc-skuehn/Manifold_Learning
+ http://scikit-learn.org/stable/modules/manifold.html . 
+ https://github.com/cc-skuehn/Manifold_Learning . 
+ https://towardsdatascience.com/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe
    
   * Special Feature Engineering techniques/ embeddings methods for DL methods
   
