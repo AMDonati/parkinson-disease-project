@@ -74,7 +74,15 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 3.**Feature Engineering:** (if classic ML is used)
   * Manual Feature Engineering with the help of doctors 
   * Statistical techniques to find correlation between features
-  * Classic Feature Engineering Techniques for ML 
+  * Classic Feature Engineering Techniques for ML -> use manifold learning:
+   * PCA: http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+   * t-SNE: https://lvdmaaten.github.io/tsne/
+   https://bl.ocks.org/Fil/b07d09162377827f1b3e266c43de6d2a
+   * isomap: 
+   
+ http://scikit-learn.org/stable/modules/manifold.html
+ https://github.com/cc-skuehn/Manifold_Learning
+   
   * Special Feature Engineering techniques/ embeddings methods for DL methods
   
 4. **ML/DL models to try:** 
