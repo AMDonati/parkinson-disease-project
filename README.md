@@ -113,13 +113,14 @@ _TO COMPLETE_
 | ----------------         |:-------------:                                                   | -----:         |
 | 0. Project Management    | Trello, slack, Github                                            |                |
 | 1. Data Processing       | PyTables? or only pandas                                         |                |
-| 2. EDA                   | Seaborn, Scipy, statsmodels.tsa                                  |                |
+| 2. EDA                   | Cufflinks/plotly, Seaborn, Scipy, statsmodels.tsa                |                |
 | 3. Feature Engineering   | sci-kit learn                                                    |use doctors help|
 | 4a. Classic ML           | sci-kit learn                                                    |                |
 | 4b. DL                   | keras with TensorFlow BE, Tensorboard, Google Open Cloud/AWS     |                |
 | 5. Dataviz               | TBD, probably Seaborn                                            |                |
 
 * http://www.statsmodels.org/stable/tsa.html
+* for quick dataviz on dataframes: use cufflinks: https://plot.ly/ipython-notebooks/cufflinks/
 * For DL: 
   * [NN Playground] (https://playground.tensorflow.org/#activation=tanh&batchSize=30&dataset=spiral&regDataset=reg-plane&learningRate=0.3&regularizationRate=0&noise=0&networkShape=4,2&seed=0.51575&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
   * [Tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard)
