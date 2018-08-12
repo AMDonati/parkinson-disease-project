@@ -104,6 +104,8 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
   * [Informing sequential clinical decision-making through reinforcement learning: an empirical study] (https://link.springer.com/content/pdf/10.1007/s10994-010-5229-0.pdf)
   * [Customizing Treatment to the Patient: Adaptive Treatment Strategies] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1924645/)
   
+ * see also this article from MIT news using RL for reducing drug doses: http://news.mit.edu/2018/artificial-intelligence-model-learns-patient-data-cancer-treatment-less-toxic-0810
+  
   
 6. **Outputs of the model** . 
 For each patient: 
