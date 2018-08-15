@@ -67,9 +67,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 
 2. **EDA**: 
 * timeseries analysis & plotting
-> look @ sparsity, irregularity... 
-* Look @ numbers of subjects having DatScan (MRI) data
-* Look @ Study Enrollment data
+> look @ sparsity, irregularity,trends... 
 
 3.**Feature Engineering:** (if classic ML is used)
   * Manual Feature Engineering with the help of doctors 
@@ -85,7 +83,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
    * autoencoders
   
 4. **ML/DL models to try:** 
- * Baseline: 
+ * Baseline: a statistical model > the one for a multivariate timeseries with endogeneous variables with trends (to verify) and without seasonality. 
  
  * "Explainable" models: gradient-boosted trees, Random Forest
 > Issue of large numbers of features for these models though...
@@ -94,6 +92,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
     * Hidden Markov Models
     * RNN
     * LSTM
+ _reference paper for timeseries foreacast of EHR_: https://arxiv.org/pdf/1706.03446.pdf (to print)
     
 About chossing between HMM & RNNs: 
 * https://www.quora.com/When-would-one-use-a-Hidden-Markov-Model-instead-of-a-Recurrent-Neural-Network
