@@ -91,8 +91,9 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
  * DL Models to be modified to include incertainty with bayesian models
     * Hidden Markov Models
     > About HMMs for disease progression: https://web.engr.oregonstate.edu/~lif/nips2015_CTHMM_learning_camera_ready.pdf
-    * RNN
-    * LSTM
+    > About HMMs for TS classification: https://towardsdatascience.com/hidden-markov-models-for-time-series-classification-basic-overview-a59b74e5e65b
+    * LSTM, GRU
+    * Seq2seq, 1D-CNN?
  _reference paper for timeseries foreacast of EHR_: https://arxiv.org/pdf/1706.03446.pdf (to print)
     
 About chossing between HMM & RNNs: 
@@ -122,15 +123,15 @@ Plots comparating the performance of the different models for different metrics
 ### 4. DS tools to be used (Python Libraries...): 
 _TO COMPLETE_
 
-| **DS Process**           | Tool/Python lib                                                  | Comments       |
-| ----------------         |:-------------:                                                   | -----:         |
-| 0. Project Management    | Trello, slack, Github                                            |                |
-| 1. Data Processing       | PyTables? or only pandas                                         |                |
-| 2. EDA                   | Cufflinks/plotly, Seaborn, Scipy, statsmodels.tsa                |                |
-| 3. Feature Engineering   | sci-kit learn                                                    |use doctors help|
-| 4a. Classic ML           | sci-kit learn                                                    |                |
-| 4b. DL                   | keras with TensorFlow BE, Tensorboard, Google Open Cloud/AWS     |                |
-| 5. Dataviz               | TBD, probably Seaborn                                            |                |
+| **DS Process**           | Tool/Python lib                                                  | Comments                  |
+| ----------------         |:-------------:                                                   | -----:                    |
+| 0. Project Management    | Trello, slack, Github                                                                        |
+| 1. Data Processing       | PyTables? or only pandas                                         |Mosty done                 |
+| 2. EDA                   | Cufflinks/plotly, Seaborn, Scipy, statsmodels.tsa                |Mostly done                |
+| 3. Feature Engineering   | sci-kit learn                                                    |Manually done for now .    |
+| 4a. Classic ML           | sci-kit learn                                                    |                           |
+| 4b. DL                   | keras with TensorFlow BE, Tensorboard, Google Open Cloud/AWS     |tutos started              |
+| 5. Dataviz               | TBD, probably Seaborn                                            |                           |
 
 * http://www.statsmodels.org/stable/tsa.html
 * for quick dataviz on dataframes: use cufflinks: https://plot.ly/ipython-notebooks/cufflinks/
