@@ -90,6 +90,7 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
 
  * DL Models to be modified to include incertainty with bayesian models
     * Hidden Markov Models
+    > About HMMs for disease progression: https://web.engr.oregonstate.edu/~lif/nips2015_CTHMM_learning_camera_ready.pdf
     * RNN
     * LSTM
  _reference paper for timeseries foreacast of EHR_: https://arxiv.org/pdf/1706.03446.pdf (to print)
