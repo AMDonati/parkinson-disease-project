@@ -83,7 +83,9 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
    * autoencoders
   
 4. **ML/DL models to try:** 
- * Baseline: a statistical model > the one for a multivariate timeseries with endogeneous variables with trends (to verify) and without seasonality. 
+ * Baseline: a statistical model > the one for a multivariate timeseries with endogeneous variables without trends and without seasonality = VARMA. 
+     * other possibilities: discounted median, persistence model. 
+ > Some references: https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
  
  * "Explainable" models: gradient-boosted trees, Random Forest
 > Issue of large numbers of features for these models though...
