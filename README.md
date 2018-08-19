@@ -83,11 +83,11 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
    * autoencoders
   
 4. **ML/DL models to try:** 
- * Baseline: a statistical model > the one for a multivariate timeseries with endogeneous variables without trends and without seasonality = VARMA. 
+ * **Baseline**: a statistical model > the one for a multivariate timeseries with endogeneous variables without trends and without seasonality = VARMA. 
      * other possibilities: discounted median, persistence model. 
  > Some references: https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
  
- * "Explainable" models: gradient-boosted trees, Random Forest
+ * **"Explainable" models**: gradient-boosted trees, Random Forest
 > Issue of large numbers of features for these models though...
 
  * DL Models to be modified to include incertainty with bayesian models
@@ -95,22 +95,25 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
     > About HMMs for disease progression: https://web.engr.oregonstate.edu/~lif/nips2015_CTHMM_learning_camera_ready.pdf
     > About HMMs for TS classification: https://towardsdatascience.com/hidden-markov-models-for-time-series-classification-basic-overview-a59b74e5e65b
     * LSTM, GRU
+    > about pro/cons of LSTM vs GRU: https://datascience.stackexchange.com/questions/14581/when-to-use-gru-over-lstm  
+    > A review of GRU for sequence modeling: https://arxiv.org/pdf/1412.3555v1.pdf
     * Seq2seq, 1D-CNN?
- _reference paper for timeseries foreacast of EHR_: https://arxiv.org/pdf/1706.03446.pdf (to print)
+    
+>  **reference paper for timeseries foreacast of EHR**: https://arxiv.org/pdf/1706.03446.pdf (to print)
     
 About chossing between HMM & RNNs: 
 * https://www.quora.com/When-would-one-use-a-Hidden-Markov-Model-instead-of-a-Recurrent-Neural-Network
 * https://stats.stackexchange.com/questions/20429/what-are-the-differences-between-hidden-markov-models-and-neural-networks
 * https://pub.uni-bielefeld.de/download/2903474/2907910
   
-  > **NB: maybe the problem of allocating treatments to disease states over time could be solved by reinforcement learning as well...** See these links:
-  * [Google scholar search for RL for adaptative treatments strategies] (https://scholar.google.com/scholar?oi=gsb95&q=reinforcement%20learning%20for%20medical%20treatments%20decisions&lookup=0&hl=en)
-  * [An experimental design for the development of adaptive treatment strategies] (https://deepblue.lib.umich.edu/bitstream/handle/2027.42/39201/2022_ftp.pdf?sequence=1&isAllowed=y)
-  * [Informing sequential clinical decision-making through reinforcement learning: an empirical study] (https://link.springer.com/content/pdf/10.1007/s10994-010-5229-0.pdf)
-  * [Customizing Treatment to the Patient: Adaptive Treatment Strategies] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1924645/)
+  #### NB: maybe the problem of allocating treatments to disease states over time could be solved by reinforcement learning as well 
+  > See these links:
+> * [Google scholar search for RL for adaptative treatments strategies] (https://scholar.google.com/scholar?oi=gsb95&q=reinforcement%20learning%20for%20medical%20treatments%20decisions&lookup=0&hl=en)
+> * [An experimental design for the development of adaptive treatment strategies] (https://deepblue.lib.umich.edu/bitstream/handle/2027.42/39201/2022_ftp.pdf?sequence=1&isAllowed=y)
+ > * [Informing sequential clinical decision-making through reinforcement learning: an empirical study] (https://link.springer.com/content/pdf/10.1007/s10994-010-5229-0.pdf)
+ > * [Customizing Treatment to the Patient: Adaptive Treatment Strategies] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1924645/)
   
  * see also this article from MIT news using RL for reducing drug doses: http://news.mit.edu/2018/artificial-intelligence-model-learns-patient-data-cancer-treatment-less-toxic-0810
-  
   
 6. **Outputs of the model** . 
 For each patient: 
