@@ -123,7 +123,6 @@ For each patient:
 Plots comparating the performance of the different models for different metrics
 
 ### 4. DS tools to be used (Python Libraries...): 
-_TO COMPLETE_
 
 | **DS Process**           | Tool/Python lib                                                  | Comments                  |
 | ----------------         |:-------------:                                                   | -----:                    |
@@ -135,12 +134,18 @@ _TO COMPLETE_
 | 4b. DL                   | keras with TensorFlow BE, Tensorboard, Google Open Cloud/AWS     |tutos started              |
 | 5. Dataviz               | TBD, probably Seaborn                                            |                           |
 
+#### Links: 
 * http://www.statsmodels.org/stable/tsa.html
 * for quick dataviz on dataframes: use cufflinks: https://plot.ly/ipython-notebooks/cufflinks/
 * For DL: 
   * [NN Playground] (https://playground.tensorflow.org/#activation=tanh&batchSize=30&dataset=spiral&regDataset=reg-plane&learningRate=0.3&regularizationRate=0&noise=0&networkShape=4,2&seed=0.51575&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
   * [Tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard)
   * GPUs: Google Open Cloud (Free), AWS
+  
+#### Python tricks to used
+* Pickles
+> https://docs.python.org/2/library/pickle.html . 
+> https://pythontips.com/2013/08/02/what-is-pickle-in-python/
 
 ### 8. Potential Challenges araised by the subject
 * For classic ML techniques: Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
@@ -154,22 +159,8 @@ see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-cont
   
  
  ### 11. Additonal datasets that could be used: 
-* **2 others clinical studies for PD subjects:** 
-  * https://www.coriell.org/Search?q=%22PARKINSON%20DISEASE%22&grid=1
-  * https://www.biosend.org/pd_specimens.html
-  
-* **UCI ML repository datasets on PD:**
-  * https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings
-  * https://archive.ics.uci.edu/ml/datasets/Parkinson+Disease+Spiral+Drawings+Using+Digitized+Graphics+Tablet
-  
-* **Physiomed datasets - Keystrokes, Tremors and Gait:**
-  * https://physionet.org/physiobank/database/nqmitcsxpd/
-  * https://physionet.org/physiobank/database/tremordb/
-  * https://physionet.org/physiobank/database/gaitndd/
-  * https://physionet.org/physiobank/database/gaitdb/
-  * https://physionet.org/physiobank/database/gaitpdb/
-  
-
+See here: https://github.com/AMDonati/parkinson-disease-project/wiki/Other-PD-medical-datasets
+ 
  ---------------
  
  ### Parkinson News to check: 
