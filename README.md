@@ -62,11 +62,12 @@ http://www.ppmi-info.org/access-data-specimens/download-data/
  * cost reductions by improved patient management & treatment optimization
  * operations improvement by predicting patients future visits, med supplies, etc...
   
+  ---------------------------------------------------------------
+
 ### 5.DS Process for the project 
 1. **Data Processing/Cleaning**: Merge/Join of Tables (eventually using PyTables)
 
-2. **EDA**: 
-* timeseries analysis & plotting
+2. **EDA**: timeseries analysis & plotting
 > look @ sparsity, irregularity,trends... 
 
 3.**Feature Engineering:** (if classic ML is used)
@@ -133,14 +134,14 @@ Plots comparating the performance of the different models for different metrics
 | 1. Data Processing       | PyTables? or only pandas                                         |Mosty done                 |
 | 2. EDA                   | Cufflinks/plotly, Seaborn, Scipy, statsmodels.tsa                |Mostly done                |
 | 3. Feature Engineering   | sci-kit learn                                                    |Manually done for now .    |
-| 4a. Classic ML           | sci-kit learn                                                    |                           |
+| 4a. Classic ML           | sci-kit learn                                                    |probably no time for that  |
 | 4b. DL                   | keras with TensorFlow BE, Tensorboard, Google Open Cloud/AWS     |tutos started              |
 | 5. Dataviz               | TBD, probably Seaborn                                            |                           |
 
 #### Links: 
 * http://www.statsmodels.org/stable/tsa.html
 * for quick dataviz on dataframes: use cufflinks: https://plot.ly/ipython-notebooks/cufflinks/
-* For DL: 
+* **For DL**: 
   * [NN Playground] (https://playground.tensorflow.org/#activation=tanh&batchSize=30&dataset=spiral&regDataset=reg-plane&learningRate=0.3&regularizationRate=0&noise=0&networkShape=4,2&seed=0.51575&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
   * [Tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard)
   * GPUs: Google Open Cloud (Free), AWS
@@ -150,8 +151,18 @@ Plots comparating the performance of the different models for different metrics
 > https://docs.python.org/2/library/pickle.html . 
 > https://pythontips.com/2013/08/02/what-is-pickle-in-python/
 
-### 8. Potential Challenges araised by the subject
-* For classic ML techniques: Doing correctly the feature engineering to select the right variables to use as an input of the prediction model
+----------------------------------------------------------------------------------------------------------
+
+### 8. Useful tutos to do for the project
+#### Deep Learning - General
+* http://course.fast.ai/index.html (RNNs, CNNs, autoencoders...)
+* DL models hyperparameters tuning: https://www.datacamp.com/courses/deep-learning-in-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=dc_registered_visitors
+* List of NN architectures description: http://www.asimovinstitute.org/neural-network-zoo/
+* Chapter advanced use of Keras from F.Chollet book. 
+
+#### Biomedical images processing
+* Deep Learning for Heathcare Image Analysis: https://nvidia.qwiklab.com/quests/14
+* Deep Learning for Medical Imaging: https://www.youtube.com/watch?v=2_Jv11VpOF4
 
 ### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
 see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-contacts-&-discussions-summary
@@ -160,7 +171,6 @@ see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-cont
  * see list here: https://github.com/AMDonati/parkinson-disease-project/wiki/reference-documents
  * See papers summary here: https://docs.google.com/spreadsheets/d/1TEL4umtQPdPPhzf092iMQgvmi9pID5UMrCdndo6ZJsE/edit#gid=0
   
- 
  ### 11. Additonal datasets that could be used: 
 See here: https://github.com/AMDonati/parkinson-disease-project/wiki/Other-PD-medical-datasets
  
@@ -168,10 +178,4 @@ See here: https://github.com/AMDonati/parkinson-disease-project/wiki/Other-PD-me
  
  ### Parkinson News to check: 
  https://parkinsonsnewstoday.com/2018/07/31/ema-endorses-use-of-imaging-radioactive-tracer-to-improve-parkinsons-clinical-trial-recruitment/
-
-
-
-
-
-
 
