@@ -158,6 +158,7 @@ Plots comparating the performance of the different models for different metrics
 * http://course.fast.ai/index.html (RNNs, CNNs, autoencoders...)
 * DL models hyperparameters tuning: https://www.datacamp.com/courses/deep-learning-in-python?utm_source=fb_paid&utm_medium=cpc&utm_campaign=dc_registered_visitors
 * List of NN architectures description: http://www.asimovinstitute.org/neural-network-zoo/
+http://www.asimovinstitute.org/blog/
 * Chapter advanced use of Keras from F.Chollet book. 
 
 #### Biomedical images processing
