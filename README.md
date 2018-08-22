@@ -31,8 +31,7 @@ source: http://www.acnr.co.uk/SO10/ACNRSO10_30_SWEDD_article.pdf
 
 ### 2. **MAIN DATASET**: 
 http://www.ppmi-info.org/access-data-specimens/download-data/
-#### Data Summary
-#### Data Pop : 2144 patients (as of SCREEN tables)
+#### Data Pop : 2144 patients (as of SCREEN tables). 1052 PD people (PD (Gen and non Gen cohort), SWEDD, PRODROMA)
 #### Patients Hospital visits timeline (timeseries period): 
 * 15 visits besides screening, Baseline and unscheduled visits. 
 * -> V04b: every 3 month / V05b -> V13: every 6 months / V14, V15 and beyond; every 12 months.
