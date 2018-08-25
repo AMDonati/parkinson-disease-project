@@ -90,7 +90,6 @@ https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpx
  > Some references: https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
  
  * **"Explainable" models**: gradient-boosted trees, Random Forest
-> Issue of large numbers of features for these models though...
 
  * DL Models to be modified to include incertainty with bayesian models
     * Hidden Markov Models
@@ -99,7 +98,7 @@ https://docs.google.com/spreadsheets/d/1Q-0zAG_oBfuo21s5xzN6Vwck5NT0GyP0K3KxiWpx
     * LSTM, GRU
     > about pro/cons of LSTM vs GRU: https://datascience.stackexchange.com/questions/14581/when-to-use-gru-over-lstm  
     > A review of GRU for sequence modeling: https://arxiv.org/pdf/1412.3555v1.pdf
-    * Seq2seq, 1D-CNN?
+    * Seq2seq, 1D-CNN, MFCN LSTM?
     
 >  **reference paper for timeseries foreacast of EHR**: https://arxiv.org/pdf/1706.03446.pdf (to print)
     
@@ -165,6 +164,8 @@ http://www.asimovinstitute.org/blog/
 #### Biomedical images processing
 * Deep Learning for Heathcare Image Analysis: https://nvidia.qwiklab.com/quests/14
 * Deep Learning for Medical Imaging: https://www.youtube.com/watch?v=2_Jv11VpOF4
+* Tuto to read fMRI data: https://medium.com/coinmonks/visualizing-brain-imaging-data-fmri-with-python-e1d0358d9dba
+(see associated github repo)
 
 ### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
 see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-contacts-&-discussions-summary
