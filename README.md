@@ -166,6 +166,7 @@ http://www.asimovinstitute.org/blog/
 * Deep Learning for Medical Imaging: https://www.youtube.com/watch?v=2_Jv11VpOF4
 * Tuto to read fMRI data: https://medium.com/coinmonks/visualizing-brain-imaging-data-fmri-with-python-e1d0358d9dba
 (see associated github repo)
+* **THE BEST**: https://pyscience.wordpress.com/2014/09/08/dicom-in-python-importing-medical-image-data-into-numpy-with-pydicom-and-vtk/
 
 ### 9. List of contacts that could help me & summary of discussions (other than mentor(s))
 see here: https://github.com/AMDonati/parkinson-disease-project/wiki/useful-contacts-&-discussions-summary
