@@ -2,8 +2,6 @@
 
 ### 1. Finish computing for Disease Progression
 > to do still:
-* Improve & save bias/variance tradeoff graphs
-* Correct features importance graph
 * Understand the issue with CV accuracy of ensemble models.
 
 ### 2. Start slides deck
