@@ -11,10 +11,13 @@
 * missing graphs
 
 ### 3. Second part: Brain Scan Classification
-  * Review the notebook
-  * Resize & take less slices before reading all the scans
-  * Take a subset to start doing the calculations without GPUs.
-  * Simple computation on Kaggle 3D-CNN.
-  * Look @ Nifty doc: model zoo, pre-processing etc...
+#### EDA : save plots
+* files reordering: delete .dcm files & download .nii files
+* finish pre-processing script with nibabel > 3D-array (num_samples, pixels, slices)
+* Choose a pre-trained model
+* Look @ F.Chollet notebooks
+* Run the model for a **subdataset**: samples test + pixels resizing via openCV
+* ...
 
 ### 4. Rewrite the README.md before the Community Day.
+* the README should mirror the slides deck

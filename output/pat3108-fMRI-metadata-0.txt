@@ -1,0 +1,137 @@
+(0008, 0000) Group Length                        UL: 854
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM', 'MOSAIC']
+(0008, 0013) Instance Creation Time              TM: '100413.453000'
+(0008, 0016) SOP Class UID                       UI: MR Image Storage
+(0008, 0018) SOP Instance UID                    UI: 2.16.124.113543.6006.99.1591453504488056741
+(0008, 0020) Study Date                          DA: '20150506'
+(0008, 0021) Series Date                         DA: '20150506'
+(0008, 0022) Acquisition Date                    DA: '20150506'
+(0008, 0023) Content Date                        DA: '20150506'
+(0008, 0030) Study Time                          TM: '093318.078000'
+(0008, 0031) Series Time                         TM: '100313.453000'
+(0008, 0032) Acquisition Time                    TM: '100317.755000'
+(0008, 0033) Content Time                        TM: '100413.453000'
+(0008, 0060) Modality                            CS: 'MR'
+(0008, 0070) Manufacturer                        LO: 'SIEMENS'
+(0008, 0080) Institution Name                    LO: 'Baylor College of Medicine'
+(0008, 0090) Referring Physician's Name          PN: ''
+(0008, 1030) Study Description                   LO: 'PPMI PD STUDY VB17A V4 +RESTING (Current)^PD GATING'
+(0008, 103e) Series Description                  LO: 'ep2d_RESTING_STATE'
+(0008, 1060) Name of Physician(s) Reading Study  PN: ''
+(0008, 1070) Operators' Name                     PN: ''
+(0008, 1090) Manufacturer's Model Name           LO: 'TrioTim'
+(0008, 1140)  Referenced Image Sequence   3 item(s) ----
+   (0008, 1150) Referenced SOP Class UID            UI: 2.16.124.113543.6006.99.4332567756067262732
+   (0008, 1155) Referenced SOP Instance UID         UI: 2.16.124.113543.6006.99.5326606188257683711
+   ---------
+   (0008, 1150) Referenced SOP Class UID            UI: 2.16.124.113543.6006.99.4332567756067262732
+   (0008, 1155) Referenced SOP Instance UID         UI: 2.16.124.113543.6006.99.0527626033731809348
+   ---------
+   (0008, 1150) Referenced SOP Class UID            UI: 2.16.124.113543.6006.99.4332567756067262732
+   (0008, 1155) Referenced SOP Instance UID         UI: 2.16.124.113543.6006.99.1746298883286059655
+   ---------
+(0010, 0000) Group Length                        UL: 78
+(0010, 0010) Patient's Name                      PN: 'DE-IDENTIFIED'
+(0010, 0020) Patient ID                          LO: '3108'
+(0010, 0040) Patient's Sex                       CS: 'F'
+(0010, 1010) Patient's Age                       AS: '053Y'
+(0010, 1030) Patient's Weight                    DS: "59.8742004564"
+(0018, 0000) Group Length                        UL: 442
+(0018, 0020) Scanning Sequence                   CS: 'EP'
+(0018, 0021) Sequence Variant                    CS: ['SK', 'OSP']
+(0018, 0022) Scan Options                        CS: 'FS'
+(0018, 0023) MR Acquisition Type                 CS: '2D'
+(0018, 0024) Sequence Name                       SH: '*epfid2d1_66'
+(0018, 0025) Angio Flag                          CS: 'N'
+(0018, 0050) Slice Thickness                     DS: "3.2999999523163"
+(0018, 0080) Repetition Time                     DS: "2400"
+(0018, 0081) Echo Time                           DS: "25"
+(0018, 0083) Number of Averages                  DS: "1"
+(0018, 0084) Imaging Frequency                   DS: "123.254889"
+(0018, 0085) Imaged Nucleus                      SH: '1H'
+(0018, 0086) Echo Number(s)                      IS: '1'
+(0018, 0087) Magnetic Field Strength             DS: "3"
+(0018, 0088) Spacing Between Slices              DS: "3.2999999217498"
+(0018, 0089) Number of Phase Encoding Steps      IS: '66'
+(0018, 0091) Echo Train Length                   IS: '1'
+(0018, 0093) Percent Sampling                    DS: "100"
+(0018, 0094) Percent Phase Field of View         DS: "97.058823660714"
+(0018, 0095) Pixel Bandwidth                     DS: "2535"
+(0018, 1000) Device Serial Number                LO: '4RYQhNAwMfVs'
+(0018, 1020) Software Version(s)                 LO: 'syngo MR B17'
+(0018, 1030) Protocol Name                       LO: 'ep2d_RESTING_STATE'
+(0018, 1251) Transmit Coil Name                  SH: 'Body'
+(0018, 1310) Acquisition Matrix                  US: [68, 0, 0, 66]
+(0018, 1312) In-plane Phase Encoding Direction   CS: 'COL'
+(0018, 1314) Flip Angle                          DS: "80"
+(0018, 1315) Variable Flip Angle Flag            CS: 'N'
+(0018, 1316) SAR                                 DS: "0.13895379374021"
+(0018, 1318) dB/dt                               DS: "0"
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0019, 0000) Private Creator                     UL: 532
+(0019, 0010) Private tag data                    LO: 'SIEMENS MR HEADER'
+(0019, 1008) [CSA Image Header Type]             CS: 'IMAGE NUM 4'
+(0019, 100a) [NumberOfImagesInMosaic]            US: 40
+(0019, 100b) [SliceMeasurementDuration]          DS: "30"
+(0019, 1012) [TablePositionOrigin]               SL: [0, 0, -1247]
+(0019, 1013) [ImaAbsTablePosition]               SL: [0, 0, -1247]
+(0019, 1014) [ImaRelTablePosition]               IS: ['0', '0', '0']
+(0019, 1015) [SlicePosition_PCS]                 FD: [-776.57832289, -766.33877683, -52.20542145]
+(0019, 1016) [TimeAfterStart]                    DS: "67.47"
+(0019, 1017) [SliceResolution]                   DS: "1"
+(0019, 1018) [RealDwellTime]                     IS: '2900'
+(0019, 1028) [BandwidthPerPixelPhaseEncode]      FD: 32.938
+(0019, 1029) [MosaicRefAcqTimes]                 FD: [0.0, 60.0, 120.0, 179.99999999, 239.99999999, 299.99999999, 360.0, 420.0, 480.0, 539.99999999, 602.49999999, 662.49999999, 722.49999999, 782.5, 842.5, 902.5, 962.49999999, 1022.49999999, 1082.49999999, 1142.5, 1202.5, 1265.0, 1325.0, 1384.99999999, 1444.99999999, 1504.99999999, 1565.0, 1625.0, 1685.0, 1745.0, 1804.99999999, 1864.99999999, 1927.49999999, 1987.49999999, 2047.5, 2107.5, 2167.5, 2227.49999999, 2287.49999999, 2347.49999999]
+(0020, 0000) Group Length                        UL: 306
+(0020, 000d) Study Instance UID                  UI: 2.16.124.113543.6006.99.6781157639056459761
+(0020, 000e) Series Instance UID                 UI: 2.16.124.113543.6006.99.04880667490945527597
+(0020, 0010) Study ID                            SH: '1'
+(0020, 0011) Series Number                       IS: '11'
+(0020, 0012) Acquisition Number                  IS: '29'
+(0020, 0013) Instance Number                     IS: '29'
+(0020, 0032) Image Position (Patient)            DS: ['-776.57832288742', '-766.33877682686', '-52.205421447754']
+(0020, 0037) Image Orientation (Patient)         DS: ['1', '0', '0', '0', '1', '0']
+(0020, 0052) Frame of Reference UID              UI: 2.16.124.113543.6006.99.07599489947025167449
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 1041) Slice Location                      DS: "-52.205421447754"
+(0028, 0000) Group Length                        UL: 174
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 462
+(0028, 0011) Columns                             US: 476
+(0028, 0030) Pixel Spacing                       DS: ['3.2941176891327', '3.2941176891327']
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 0106) Smallest Image Pixel Value          US: 0
+(0028, 0107) Largest Image Pixel Value           US: 1703
+(0028, 1050) Window Center                       DS: "579"
+(0028, 1051) Window Width                        DS: "1221"
+(0029, 0000) Private Creator                     UL: 87210
+(0029, 1008) Private tag data                    CS: 'IMAGE NUM 4'
+(0029, 1010) Private tag data                    OB: Array of 11008 bytes
+(0029, 1018) Private tag data                    CS: 'MR'
+(0029, 1020) Private tag data                    OB: Array of 76148 bytes
+(0040, 0000) Group Length                        UL: 22
+(0040, 0245) Performed Procedure Step Start Time TM: '093318.125000'
+(0051, 0000) Private Creator                     UL: 44
+(0051, 1008) Private tag data                    CS: 'IMAGE NUM 4'
+(0051, 1016) Private tag data                    LO: 'M/ND/NORM/MOSAIC'
+(0088, 0000) Group Length                        UL: 206
+(0088, 0140) Storage Media File-set UID          UI: 2.16.124.113543.6006.99.8223500220978705577
+(0088, 0200)  Icon Image Sequence   1 item(s) ----
+   (0028, 0002) Samples per Pixel                   US: 1
+   (0028, 0004) Photometric Interpretation          CS: 'PALETTE COLOR'
+   (0028, 0010) Rows                                US: 64
+   (0028, 0011) Columns                             US: 64
+   (0028, 0100) Bits Allocated                      US: 8
+   (0028, 0101) Bits Stored                         US: 8
+   (0028, 0102) High Bit                            US: 7
+   (0028, 0103) Pixel Representation                US: 0
+   (0028, 1101) Red Palette Color Lookup Table Desc US: [256, 0, 8]
+   (0028, 1102) Green Palette Color Lookup Table De US: [256, 0, 8]
+   (0028, 1103) Blue Palette Color Lookup Table Des US: [256, 0, 8]
+   ---------
+(7fe0, 0010) Pixel Data                          OW: Array of 439824 bytes
